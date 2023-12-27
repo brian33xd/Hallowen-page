@@ -1,0 +1,301 @@
+@media (max-width:1500px) {
+
+
+    .categories__card {
+        width: 24%;
+    }
+
+    .trick-or-threat__cards-container {
+        width: 80%;
+    }
+
+    .news__cards-container {
+        width: 80%;
+
+    }
+
+    .footer__subscribe-card {
+        width: 30%;
+    }
+
+    .img-final {
+        top: -50%;
+    }
+
+    .footer__abouts {
+        gap: 5rem;
+    }
+}
+
+@media (max-width:1050px) {
+    .swip__img-details {
+        left: 0;
+    }
+
+    .main__swipper {
+        padding: 0 10rem;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .header__nav {
+        display: none;
+        transition: all 300ms ease-in-out;
+    }
+
+    .header__toggle,
+    .header__close {
+
+        position: absolute;
+        color: white;
+        top: 20%;
+        right: 2%;
+        font-size: 3rem;
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+    }
+
+    .header__close {
+        top: 5%;
+    }
+
+    .header__close.active {
+        display: block;
+    }
+
+
+    .header__toggle:hover,
+    .header__close:hover {
+        opacity: 0.5;
+    }
+
+    .header__nav.Show-menu .header__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+    }
+
+    .header__nav.Show-menu::before {
+        content: "";
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        top: -20%;
+        left: 0;
+        background: black;
+        z-index: 0;
+    }
+
+    .header__nav.Show-menu {
+        display: flex;
+        z-index: 3;
+        position: absolute;
+        border-radius: 3rem;
+        flex-direction: column;
+        background: black;
+        align-items: center;
+        justify-content: center;
+        transition: all 200ms ease-in-out;
+
+    }
+
+    .header__nav.Show-menu .header__logo-container {
+        display: none;
+    }
+
+    .page__header {
+        max-height: auto;
+    }
+
+    .header__list {
+        flex-direction: column;
+    }
+
+    .header__option:hover .header__option-link {
+        background-color: white;
+    }
+
+
+
+    .categories__card {
+        width: 30%;
+    }
+
+    .trick-or-threat__cards-container {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .news__cards-container {
+        width: 100%;
+        gap: 1rem;
+
+    }
+
+    .discount__Card {
+        width: 100%;
+    }
+
+    .footer__subscribe-card {
+        width: 40%;
+    }
+
+    .footer__abouts {
+        justify-content: space-around;
+        gap: 0rem;
+    }
+
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:650px) {
+    .new__swipper {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .news__card {
+        min-width: 40%;
+        min-height: 300px
+    }
+
+    .news__card-img {
+        transition: all 200ms ease-in-out;
+        min-width: 40%;
+    }
+
+    .swip__data {
+        margin: 0;
+    }
+
+    .swip__group {
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .swip__img-details {
+        bottom: -20px;
+        left: 10%;
+    }
+
+    .main__swip {
+        height: 100vh;
+        padding: 0 0.2rem;
+        flex-direction: column;
+    }
+
+    .swip__image {
+        min-width: 100px;
+        max-width: 290px;
+        max-height: 370px;
+
+    }
+
+
+
+    .about__description {
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+    .swip__title {
+        font-size: 3rem;
+    }
+
+    .img-1 {
+        width: 150px;
+    }
+
+
+
+
+    .swip__btn,
+    .about__button,
+    .discount__buy-button,
+    .subscribe__button {
+        font-size: 1.2rem;
+    }
+
+    .swip__subtitle {
+        opacity: 0;
+    }
+
+    .page__about {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .about__img {
+        padding-top: 3rem;
+        width: 200px;
+    }
+
+    .trick-or-threat__card,
+    .news__card {
+        flex-basis: 40%;
+    }
+
+    .page__categories {
+        height: 100%;
+    }
+
+    .categories__content {
+        flex-wrap: wrap;
+    }
+
+    .categories__card {
+        width: 51%;
+        height: 400px;
+        margin: 2rem 0;
+    }
+
+    .page__trick-or-threat {
+        height: 100%;
+    }
+
+    .page__discount {
+        min-height: 700px;
+        margin-top: 18rem;
+    }
+
+    .discount__Card {
+        height: 400px;
+        padding: 0 4rem;
+    }
+
+    .discount__card-img {
+        padding-left: 0;
+    }
+
+    .page__news-items {
+        height: 100%;
+    }
+
+    .footer__subscribe-card {
+        width: 80%;
+    }
+
+    .footer__abouts {
+        flex-wrap: wrap;
+    }
+
+    .footer__column {
+        flex-basis: 50%;
+    }
+
+    .img-final {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+:root {
+    --color-scrollbar: #D3D3D4;
+    --color-background-scrollbar: #eee;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 20px;
+    background: orangered;
+}
+
+body::-webkit-scrollbar-thumb {
+    border: 6px solid transparent;
+    box-shadow: inset 0 0 0 10px blueviolet;
+    border-radius: 40px;
+}
+
+
+
+
+
+body::-webkit-scrollbar-track {
+    margin: 40px 0;
+    background-color: transparent;
+
+}
